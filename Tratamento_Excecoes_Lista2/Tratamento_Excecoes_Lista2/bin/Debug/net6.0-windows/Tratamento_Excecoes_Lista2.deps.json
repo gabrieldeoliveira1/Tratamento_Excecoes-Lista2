@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Tratamento_Excecoes_Lista2/1.0.0": {
+        "runtime": {
+          "Tratamento_Excecoes_Lista2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tratamento_Excecoes_Lista2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
