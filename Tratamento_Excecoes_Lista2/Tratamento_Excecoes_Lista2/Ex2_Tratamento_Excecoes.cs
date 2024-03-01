@@ -30,7 +30,7 @@ namespace Tratamento_Excecoes_Lista2
         {
                 Ex2_Classe ex2 = new Ex2_Classe();
                 ex2.v1 = 7;
-                ex2.v2=9;
+                ex2.v2=2;
             MessageBox.Show("O resultado do cálculo é: \n\n" + ex2.Calc(2));
 
         }
