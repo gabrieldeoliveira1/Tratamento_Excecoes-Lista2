@@ -54,16 +54,23 @@ namespace Tratamento_Excecoes_Lista2
                         resultado = v1 / v2;
                         cal = calus.div; break;
 
+
                 }
                 Info = cal.ToString();
-              
+
+
+                if (resultado < 0)
+                {
+                    MessageBox.Show("Valor inválido. (NEGATIVO) ", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+
             }
             catch (Exception ex)
             {
-
-                MessageBox.Show("Valor indivisível!\n\n" + ex.Message, "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Valor indivisível!\n\n" + ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-             return resultado;
+
+            return resultado;
             
         }
 
